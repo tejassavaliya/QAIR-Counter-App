@@ -1,0 +1,7 @@
+<div class="btn__container">
+  <button 
+    class="btn btn-primary" 
+    (click)="onClick.emit(count);">
+      Clicked {{count}} {{ count > 1 ? 'times': 'time'}}
+  </button>
+</div>

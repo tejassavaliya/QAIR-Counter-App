@@ -1,0 +1,9 @@
+<div class="child" [ngClass]="{maxLimit: count >= 10}">
+  <span>Header</span>
+  <app-button 
+    [count]="count" 
+    [isMax]="count >= 10" 
+    (onClick)="incrementCount()">
+  </app-button>
+</div>
+  

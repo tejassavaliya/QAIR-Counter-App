@@ -1,0 +1,39 @@
+.btn__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    .btn.btn-primary {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        background: #4472C4;
+        height: 40px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+.btn {
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    color: #ff7a18;
+    cursor: pointer;
+    padding: 15px 25px;
+    transition: all 0.1s ease-in;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    box-shadow: none;
+    color: #777;
+  }
+  
+  .btn:active {
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+  }

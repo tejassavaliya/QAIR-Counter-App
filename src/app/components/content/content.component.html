@@ -1,0 +1,15 @@
+<div class="child content" [ngClass]="{maxLimit: count1 >= 10 || count2 >= 10}">
+  <span>Content</span>
+  <div class="conent-child">
+    <app-button 
+      [count]="count1" 
+      [isMax]="count1 >= 10" 
+      (onClick)="incrementCount1()">
+    </app-button>
+    <app-button 
+      [count]="count2" 
+      [isMax]="count2 >= 10" 
+      (onClick)="incrementCount2()">
+    </app-button>
+  </div>
+</div>

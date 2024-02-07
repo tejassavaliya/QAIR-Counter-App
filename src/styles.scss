@@ -1,0 +1,45 @@
+
+body {
+  font-family: Verdana;
+  font-weight: 600;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 16px);
+  .child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #4472C4;
+    background-color: #fff;
+    border: 2px solid #2F528F;
+  
+  }
+  .main {
+    display: flex;
+    flex-grow: 1;
+  }
+  .content {
+    flex-grow: 1;
+  }
+  .maxLimit{
+    background-color: red;
+    color: #ffffff;
+  }
+}
+
+
+app-sidenav{
+  display: flex;
+}
+
+app-content,
+app-body {
+  display: flex;
+  flex-grow: 3;
+}
